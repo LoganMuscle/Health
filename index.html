@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>0
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="logo">Здоровье
+			<img class="heart" src="heart.png" alt="">
+		</div>
+		<div class="burger-menu">
+			<span></span>
+		</div>
+		<nav class="header-nav">
+			<ul class="nav-list">
+				<li class="list__item"><a href="">Питание</a></li>
+				<li class="list__item"><a href="">Упражнения</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="divimg">
+			<div>
+				<p class="text">Помогает рассчитать индекс массы тела (body mass index, BMI) в режиме онлайн. Он позволяет оценить содержание жировой ткани в организме в зависимости от вашего роста и веса. Это позволяет предупредить проблемы со здоровьем, а главное — получить конкретные рекомендации по нормализации веса.
+
+					Калькулятор считает по формуле ЦКЗ и выдает результат согласно классификации ВОЗ. Он подходит для мужчин и женщин старше 20 лет, вне зависимости от типа телосложения. Исключение составляют спортсмены и инвалиды с ампутированными конечностями. Если вы относитесь к этим двум категориям, за интерпритацией результатов лучше обратиться к врачу.</p>
+			</div>
+		</div>
+		<div>
+			<h2>Калькулятор индекса массы тела (ИМТ)</h2>
+			<p>Вес, кг</p>
+			<input class="weight" type="text">
+			<p>Рост, см</p>
+			<input class="height" type="text">
+			<input type="button" class="btn" value="Рассчитать">
+			<p>Ваш ИМТ:</p>
+			<input class="body_mass_index" type="text">
+		</div>
+		<img class="mass" src="body_mass_index.png" alt="">
+		<span id="span"></span>
+	</main>
+	<footer>
+		<div class="divfooter">
+			<a href="">Доп. информация</a>
+			<a href="">Контакты</a>
+		</div>
+	</footer>
+<script src="script.js"></script>
+</body>
+</html>
