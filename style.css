@@ -8,6 +8,11 @@
 html{
     height: 100%;
 }
+
+h2{
+    padding: 30px;
+}
+
 /* Фон с картинкой */
 
 .divimg{
@@ -84,7 +89,6 @@ footer{
 main{
     height: 100%;
     background-color: #f3f4f3;
-    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +113,7 @@ img{
     .burger-menu::before,
     .burger-menu::after {
         content: ''; /* пустой контент */
-        background: #fff; /* цвет бургера */
+        background: #000000; /* цвет бургера */
         position: absolute; /* позиция для общего блока*/
         width: 100%; /* ширина*/
         height: 2px; /* толщина полосок бургера */
@@ -121,7 +125,7 @@ img{
     }
 
     .burger-menu span { /* средняя линия в виде span */
-        background: #fff;
+        background: #000000;
         position: absolute; 
         width: 100%;
         top: 9px;
@@ -139,7 +143,7 @@ img{
         right: 0;
         width: 50vw;
         height: 100vh;
-        background: #4a4a4a;
+        background: #8aa38a;
         padding: 20px 10px;
         transform: translateX(100%);
         z-index: 1;
@@ -176,6 +180,7 @@ img{
     .header-nav.active {
         transform: translate(0);
         transition: 0.3s ease;
-        color:#f1f1f1
+        color:#f1f1f1;
+        background-color: #718b71;
     }
 }
