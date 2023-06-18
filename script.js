@@ -11,7 +11,7 @@ function run() {
     let body_mass_index = document.querySelector(".body_mass_index");
 
     index = weight / (height/100)**2;
-    body_mass_index.value = Math.floor(index);
+    body_mass_index.value = Math.floor(index)
 }
 
 let button = document.querySelector('.btn');
